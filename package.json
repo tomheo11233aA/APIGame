@@ -1,0 +1,24 @@
+{
+  "name": "apigame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "googleapis": "^122.0.0",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.0",
+    "nodemailer": "^6.9.4",
+    "nodemon": "^3.0.1"
+  }
+}
